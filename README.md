@@ -7,6 +7,8 @@
 * **Asignatura:** Desarrollo de Software VII / Ingeniería de Software Aplicada II
 * **Instructor:** Ing. Irina Fong
 * **Semestre:** I Semestre 2026
+* **Estudiantes:** Luis Jimenez & Brian Lee
+* **Cedulas:** 8-1018-1285       8-1031-2047
 
 ---
 
@@ -28,21 +30,8 @@ El proyecto utiliza el estándar de carga automática PSR-4 gestionado a través
 
 
 API-JWT-SOFTWARE/
-├── public/                 # Directorio de acceso público del servidor web
-│   ├── index.php           # Front Controller (Punto de entrada único de la API)
-│   └── hash.php            # Interfaz utilitaria para control de hashes criptográficos
-├── src/                    # Código lógico del backend (Autoloading PSR-4)
-│   ├── DB.php              # Conexión persistente y segura a MySQL utilizando PDO
-│   ├── AuthService.php     # Gestión criptográfica, codificación y decodificación de JWT
-│   ├── UserController.php  # Controlador para el flujo de autenticación y registro
-│   ├── ProductController.php # Controlador para la persistencia del CRUD de productos
-│   └── Response.php        # Utilidad estandarizada para salida de respuestas en JSON
-├── sql/
-│   └── api_rest_jwt.sql    # Scripts DDL/DML de la base de datos y semillas iniciales
-├── vendor/                 # Dependencias externas administradas por Composer
-├── .gitignore              # Exclusiones de Git para el blindaje de credenciales locales
-├── composer.json           # Manifiesto de dependencias y mapeos PSR-4 del sistema
-└── config.php              # Variables globales de base de datos y llaves simétricas JWT
+
+<img width="299" height="528" alt="image" src="https://github.com/user-attachments/assets/38cffe98-3d03-4ffe-a908-493f28aef15b" />
 
 
 
